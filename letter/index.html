@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday greeting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="custom-cursor"></div>
+    <div class="goBack">
+        <a href="../index.html">
+            <button>GO BACK!</button>
+        </a>
+    </div>
+    <div class="card">
+        <div class="outside">
+            <div class="front">
+                <p>birthday Card!!!</p>
+                <div class="cake">
+                    <div class="top-layer"></div>
+                    <div class="middle-layer"></div>
+                    <div class="bottom-layer"></div>
+                    <div class="candle"></div>
+                </div>
+            </div>
+            <div class="back"></div>
+        </div>
+        <div class="inside">
+            <p>Happiest Birthday to my NUMBER ONE DGROUP LEADER
+
+            </p>
+           
+            <h1>☕</h1>
+        </div>
+    </div>
+    <script>
+        const cursor = document.getElementById("custom-cursor");
+document.body.style.cursor = "none";
+document.addEventListener("mousemove", e => {
+  cursor.style.top = e.pageY + "px";
+  cursor.style.left = e.pageX + "px";
+});
+const balloonImage = "data:image/png;base64,iVBORw0KGg...."; /* base64 encoded balloon image data */
+const balloonSize = 20;
+const trailLength = 20;
+const trail = [];
+
+document.body.style.cursor = "none";
+
+
+    </script>
+</body>
+</html>
