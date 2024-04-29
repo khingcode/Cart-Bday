@@ -112,12 +112,12 @@ body{
     background-position: 28px 0;
     background-image: linear-gradient(
         transparent 50px,
-        #fedbab 50px,
+        #754a0f 50px,
         #fedbab 60px,
         transparent 60px
     ),
-    radial-gradient(circle at 30px 5px, #674188 30px,
-        #C3ACD0 31px);
+    radial-gradient(circle at 30px 5px, #e4863d 30px,
+        #fdf861 31px);
     border-radius: 10px 10px 0 0;
     position: relative;
     margin: auto;
@@ -169,7 +169,7 @@ body{
 }
 .inside p{
     color: #FFFBF5;
-    font-size: 14.5px;
+    font-size: 14px;
     text-align: justify;
   text-justify: inter-word;
 }
